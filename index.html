@@ -1,16 +1,25 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
   <head>
+    <meta charset="UFT-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
     <title>Chat bot ia</title>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="styles.css"/>
   </head>
   <body>
+    <div class="chat-container">
       <header>
-      <h1>Chatbot de Carlitos</h1>
+        <h1>Chatbot de Carlitos</h1>
       </header>
-      <div id)="chat-box" class="chat-box">
-      <div></div>
+      <div id="chat-box" class="chat-box">
+        <div class="message user-message">hola</div>
+        <div class="message bot-message">hola</div> 
       </div>
-      <script src="script.js"></script>
+      <div class="input-area">
+        <input type="text" id="user-input" placeholder="escribe tu mensaje...">
+        <button id="send_btn">enviar</button>
+      </div>
+  </div>
+    <script src="script.js"></script>
   </body>
 </html>
